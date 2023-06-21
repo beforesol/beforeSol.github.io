@@ -8,6 +8,21 @@ header.masthead {
     position: relative;
     background-size: cover;
 
+    &.home {
+        background-size: contain;
+        background-color: #0087ff;
+
+        @media only screen and (min-width: 990px) {
+            & {
+                height: 532px;
+            }
+        }
+
+        .overlay {
+            background-color: transparent;
+        }
+    }
+
     .overlay {
         position: absolute;
         top: 0;

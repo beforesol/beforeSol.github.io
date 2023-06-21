@@ -9440,6 +9440,18 @@ header.masthead {
   position: relative;
   background-size: cover;
 }
+header.masthead.home {
+  background-size: contain;
+  background-color: #0087ff;
+}
+@media only screen and (min-width: 990px) {
+  header.masthead.home {
+    height: 532px;
+  }
+}
+header.masthead.home .overlay {
+  background-color: transparent;
+}
 header.masthead .overlay {
   position: absolute;
   top: 0;
