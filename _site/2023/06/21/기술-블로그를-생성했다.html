@@ -130,7 +130,7 @@
 
 <p>(mac m1환경 기준)</p>
 
-<h3 id="1-github에서-새로운-repository-생성">1. github에서 새로운 repository 생성</h3>
+<p><strong>1. github에서 새로운 repository 생성</strong></p>
 
 <p><img src="/img/posts/post-01/01.png" alt="01.png" width="100%" /></p>
 
@@ -138,7 +138,7 @@
 
 <p>추가로, 누구나 블로그를 볼 수 있도록 public으로 설정해야된다.</p>
 
-<h3 id="2-원하는-테마-선택">2. 원하는 테마 선택</h3>
+<p><strong>2. 원하는 테마 선택</strong></p>
 
 <p>나는 Clean Blog 테마를 사용했다. 아래 링크에 들어가면 다양한 테마가 있으니, 취향에 맞는 테마를 선택하면 된다.</p>
 
@@ -147,13 +147,13 @@
   <li><a href="https://jekyllthemes.io/theme/startbootstrap-clean-blog-jekyll">https://jekyllthemes.io/theme/startbootstrap-clean-blog-jekyll</a></li>
 </ul>
 
-<h3 id="3-내-저장소에-테마-부트스트랩-복사-붙여넣기-하기">3. 내 저장소에 테마 부트스트랩 복사 붙여넣기 하기</h3>
+<p><strong>3. 내 저장소에 테마 부트스트랩 복사 붙여넣기 하기</strong></p>
 
 <p><a href="https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll">https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll</a></p>
 
 <p>해당 저장소에 있는 모든 파일을 beforesol.github.io 폴더에 전부 붙여 넣기 한다.(git으로 테마가 제공된다면 해당 저장소를 fork 따서 repostory 이름을 <code class="language-plaintext highlighter-rouge">username.github.io</code>로 바꿔도 된다.)</p>
 
-<h3 id="4-ruby-설치">4. ruby 설치</h3>
+<p><strong>4. ruby 설치</strong></p>
 
 <p><strong>4-1. rbenv 설치</strong></p>
 
@@ -217,24 +217,24 @@
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rbenv rehash
 </code></pre></div></div>
 
-<h3 id="5-jekyll-다운">5. jekyll 다운</h3>
+<p><strong>5. jekyll 다운</strong></p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>jekyll
 </code></pre></div></div>
 
-<h3 id="6-번들-설치">6. 번들 설치</h3>
+<p><strong>6. 번들 설치</strong></p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">install</span>
 </code></pre></div></div>
 
-<h3 id="7-jekyll을-로컬-서버에-띄우기">7. jekyll을 로컬 서버에 띄우기</h3>
+<p><strong>7. jekyll을 로컬 서버에 띄우기</strong></p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll serve
 </code></pre></div></div>
 
 <p><code class="language-plaintext highlighter-rouge">http://127.0.0.1:4000/</code>을 브라우저에 입력</p>
 
-<h3 id="8-configyml-수정">8. <code class="language-plaintext highlighter-rouge">.config.yml</code> 수정</h3>
+<p><strong>8. <code class="language-plaintext highlighter-rouge">.config.yml</code> 수정</strong></p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">title</span><span class="pi">:</span>              <span class="s">전솔 블로그</span>
 <span class="na">email</span><span class="pi">:</span>              <span class="s">jeonsol12l@gmail.com</span>
@@ -251,14 +251,14 @@
 <span class="na">linkedin_username</span><span class="pi">:</span>
 </code></pre></div></div>
 
-<h3 id="9-변경된-내용을-원격-저장소에-push">9. 변경된 내용을 원격 저장소에 push</h3>
+<p><strong>9. 변경된 내용을 원격 저장소에 push</strong></p>
 
 <div class="language-jsx highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">git</span> <span class="nx">add</span> <span class="p">.</span>
 <span class="nx">git</span> <span class="nx">commit</span> <span class="o">-</span><span class="nx">m</span> <span class="dl">"</span><span class="s2">start clean vlog</span><span class="dl">"</span>
 <span class="nx">git</span> <span class="nx">push</span> <span class="nx">origin</span> <span class="nx">main</span>
 </code></pre></div></div>
 
-<h3 id="10-httpsbeforesolgithubio-에서-확인">10. <a href="https://beforesol.github.io">https://beforesol.github.io</a> 에서 확인</h3>
+<p><strong>10. <a href="https://beforesol.github.io">https://beforesol.github.io</a> 에서 확인</strong></p>
 
 <p>push를 한다고 바로 반영되는게 아니라 2~3분 있다가 반영이 된다. 인내심을 갖고 기다렸다가 변경된 것을 확인한다.</p>
 
